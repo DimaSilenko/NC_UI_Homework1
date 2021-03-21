@@ -1,0 +1,77 @@
+html {
+  font-family: sans-serif;
+  --main-color: #0000FF;
+  --secondary-color: #333333;
+}
+
+img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+h1 {
+  color: var(--main-color);
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  margin-top: 2em;
+  color: var(--main-color);
+}
+
+a {
+  color: var(--main-color);
+}
+
+section {
+  margin-bottom: 3em;
+  position: relative;
+}
+
+.information {
+  margin-bottom: 1em;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #333333;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 2px solid #333333;
+}
+
+td {
+  text-align: center;
+  padding: 10px 20px;
+  border: 2px solid #333333;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.cont {
+  display: flex;
+}
+
+.type {
+  min-width: 90px;
+}
